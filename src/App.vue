@@ -12,7 +12,7 @@ async function greet() {
 </script>
 
 <template>
-  <main class="container">
+  <main class="container" :style="{height: '100vh', width: '100vw'}">
     <h1>Welcome to Tauri + Vue</h1>
 
     <div class="row">
@@ -65,7 +65,6 @@ async function greet() {
 
 .container {
   margin: 0;
-  padding-top: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
